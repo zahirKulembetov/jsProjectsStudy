@@ -28,11 +28,11 @@ let numberOfLastFilm = prompt('Один из последних просмотр
 let stars = +prompt('На сколько оцените его?');
 
 let personalMovieDB = {
-   count: numberOfFilms,
-   movies: {},
-   actors: {},
-   genres: [],
-   privat: false
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
 };
 
 personalMovieDB.movies[numberOfLastFilm] = stars;
